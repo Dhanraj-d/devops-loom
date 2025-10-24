@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Loom - Master DevOps Skills</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-project-diagram"></i>
+                <span>DevOps Loom</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#learning-paths" class="nav-link">Learning Paths</a></li>
+                <li><a href="#tools" class="nav-link">Tools</a></li>
+                <li><a href="#tutorials" class="nav-link">Tutorials</a></li>
+                <li><a href="#resources" class="nav-link">Resources</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Master DevOps Skills</h1>
+                <p class="hero-subtitle">Learn DevOps from beginner to expert with hands-on tutorials, real-world projects, and industry best practices.</p>
+                <div class="hero-buttons">
+                    <a href="#learning-paths" class="btn btn-primary">Start Learning</a>
+                    <a href="#tutorials" class="btn btn-secondary">View Tutorials</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="devops-visual">
+                    <div class="circle-container">
+                        <div class="circle docker">
+                            <i class="fab fa-docker"></i>
+                            <span>Docker</span>
+                        </div>
+                        <div class="circle kubernetes">
+                            <i class="fas fa-cube"></i>
+                            <span>K8s</span>
+                        </div>
+                        <div class="circle jenkins">
+                            <i class="fab fa-jenkins"></i>
+                            <span>Jenkins</span>
+                        </div>
+                        <div class="circle aws">
+                            <i class="fab fa-aws"></i>
+                            <span>AWS</span>
+                        </div>
+                        <div class="circle terraform">
+                            <i class="fas fa-mountain"></i>
+                            <span>Terraform</span>
+                        </div>
+                        <div class="circle git">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Paths Section -->
+    <section id="learning-paths" class="learning-paths">
+        <div class="container">
+            <h2 class="section-title">Learning Paths</h2>
+            <p class="section-subtitle">Choose your DevOps journey based on your current skill level</p>
+            
+            <div class="paths-grid">
+                <div class="path-card beginner">
+                    <div class="path-header">
+                        <i class="fas fa-seedling"></i>
+                        <h3>Beginner</h3>
+                    </div>
+                    <div class="path-content">
+                        <ul>
+                            <li>Introduction to DevOps</li>
+                            <li>Linux Fundamentals</li>
+                            <li>Git & Version Control</li>
+                            <li>Basic Docker</li>
+                            <li>CI/CD Concepts</li>
+                        </ul>
+                        <div class="path-duration">4-6 weeks</div>
+                        <a href="#" class="btn btn-outline">Start Path</a>
+                    </div>
+                </div>
+
+                <div class="path-card intermediate">
+                    <div class="path-header">
+                        <i class="fas fa-rocket"></i>
+                        <h3>Intermediate</h3>
+                    </div>
+                    <div class="path-content">
+                        <ul>
+                            <li>Kubernetes Orchestration</li>
+                            <li>Infrastructure as Code</li>
+                            <li>Monitoring & Logging</li>
+                            <li>Cloud Platforms (AWS/Azure)</li>
+                            <li>Security Best Practices</li>
+                        </ul>
+                        <div class="path-duration">8-12 weeks</div>
+                        <a href="#" class="btn btn-outline">Start Path</a>
+                    </div>
+                </div>
+
+                <div class="path-card advanced">
+                    <div class="path-header">
+                        <i class="fas fa-crown"></i>
+                        <h3>Advanced</h3>
+                    </div>
+                    <div class="path-content">
+                        <ul>
+                            <li>Microservices Architecture</li>
+                            <li>Advanced Kubernetes</li>
+                            <li>GitOps & ArgoCD</li>
+                            <li>Service Mesh (Istio)</li>
+                            <li>DevSecOps Implementation</li>
+                        </ul>
+                        <div class="path-duration">12-16 weeks</div>
+                        <a href="#" class="btn btn-outline">Start Path</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section id="tools" class="tools">
+        <div class="container">
+            <h2 class="section-title">DevOps Tools & Technologies</h2>
+            <p class="section-subtitle">Master the essential tools used in modern DevOps practices</p>
+            
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fab fa-docker"></i>
+                    </div>
+                    <h3>Docker</h3>
+                    <p>Containerization platform for packaging applications and their dependencies</p>
+                    <div class="tool-tags">
+                        <span class="tag">Containers</span>
+                        <span class="tag">Orchestration</span>
+                    </div>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <h3>Kubernetes</h3>
+                    <p>Container orchestration platform for managing containerized applications</p>
+                    <div class="tool-tags">
+                        <span class="tag">Orchestration</span>
+                        <span class="tag">Scaling</span>
+                    </div>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fab fa-jenkins"></i>
+                    </div>
+                    <h3>Jenkins</h3>
+                    <p>Open-source automation server for building, testing, and deploying software</p>
+                    <div class="tool-tags">
+                        <span class="tag">CI/CD</span>
+                        <span class="tag">Automation</span>
+                    </div>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <h3>AWS</h3>
+                    <p>Cloud computing platform providing infrastructure and services</p>
+                    <div class="tool-tags">
+                        <span class="tag">Cloud</span>
+                        <span class="tag">Infrastructure</span>
+                    </div>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-mountain"></i>
+                    </div>
+                    <h3>Terraform</h3>
+                    <p>Infrastructure as Code tool for building, changing, and versioning infrastructure</p>
+                    <div class="tool-tags">
+                        <span class="tag">IaC</span>
+                        <span class="tag">Provisioning</span>
+                    </div>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fab fa-git-alt"></i>
+                    </div>
+                    <h3>Git</h3>
+                    <p>Distributed version control system for tracking changes in source code</p>
+                    <div class="tool-tags">
+                        <span class="tag">Version Control</span>
+                        <span class="tag">Collaboration</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tutorials Section -->
+    <section id="tutorials" class="tutorials">
+        <div class="container">
+            <h2 class="section-title">Interactive Tutorials</h2>
+            <p class="section-subtitle">Hands-on learning with real-world scenarios and projects</p>
+            
+            <div class="tutorials-grid">
+                <div class="tutorial-card">
+                    <div class="tutorial-image">
+                        <i class="fab fa-docker"></i>
+                    </div>
+                    <div class="tutorial-content">
+                        <h3>Docker Fundamentals</h3>
+                        <p>Learn containerization basics with Docker. Build, run, and manage containers.</p>
+                        <div class="tutorial-meta">
+                            <span class="difficulty beginner">Beginner</span>
+                            <span class="duration">2 hours</span>
+                        </div>
+                        <a href="#" class="btn btn-primary">Start Tutorial</a>
+                    </div>
+                </div>
+
+                <div class="tutorial-card">
+                    <div class="tutorial-image">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <div class="tutorial-content">
+                        <h3>Kubernetes Deployment</h3>
+                        <p>Deploy and manage applications on Kubernetes clusters with best practices.</p>
+                        <div class="tutorial-meta">
+                            <span class="difficulty intermediate">Intermediate</span>
+                            <span class="duration">4 hours</span>
+                        </div>
+                        <a href="#" class="btn btn-primary">Start Tutorial</a>
+                    </div>
+                </div>
+
+                <div class="tutorial-card">
+                    <div class="tutorial-image">
+                        <i class="fas fa-mountain"></i>
+                    </div>
+                    <div class="tutorial-content">
+                        <h3>Infrastructure as Code</h3>
+                        <p>Manage cloud infrastructure using Terraform with version control.</p>
+                        <div class="tutorial-meta">
+                            <span class="difficulty intermediate">Intermediate</span>
+                            <span class="duration">3 hours</span>
+                        </div>
+                        <a href="#" class="btn btn-primary">Start Tutorial</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="resources" class="resources">
+        <div class="container">
+            <h2 class="section-title">Learning Resources</h2>
+            <p class="section-subtitle">Curated resources to accelerate your DevOps learning journey</p>
+            
+            <div class="resources-grid">
+                <div class="resource-category">
+                    <h3><i class="fas fa-book"></i> Documentation</h3>
+                    <ul>
+                        <li><a href="#">Docker Official Docs</a></li>
+                        <li><a href="#">Kubernetes Documentation</a></li>
+                        <li><a href="#">AWS Best Practices</a></li>
+                        <li><a href="#">Terraform Guides</a></li>
+                    </ul>
+                </div>
+
+                <div class="resource-category">
+                    <h3><i class="fas fa-video"></i> Video Tutorials</h3>
+                    <ul>
+                        <li><a href="#">DevOps Fundamentals Course</a></li>
+                        <li><a href="#">Docker Deep Dive</a></li>
+                        <li><a href="#">Kubernetes in Production</a></li>
+                        <li><a href="#">CI/CD Pipeline Setup</a></li>
+                    </ul>
+                </div>
+
+                <div class="resource-category">
+                    <h3><i class="fas fa-code"></i> Practice Labs</h3>
+                    <ul>
+                        <li><a href="#">Docker Lab Environment</a></li>
+                        <li><a href="#">Kubernetes Playground</a></li>
+                        <li><a href="#">AWS Free Tier Projects</a></li>
+                        <li><a href="#">Terraform Sandbox</a></li>
+                    </ul>
+                </div>
+
+                <div class="resource-category">
+                    <h3><i class="fas fa-users"></i> Community</h3>
+                    <ul>
+                        <li><a href="#">DevOps Discord Server</a></li>
+                        <li><a href="#">Stack Overflow DevOps</a></li>
+                        <li><a href="#">Reddit r/devops</a></li>
+                        <li><a href="#">GitHub DevOps Repos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>DevOps Loom</h3>
+                    <p>Your comprehensive learning platform for mastering DevOps skills and practices.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Learning Paths</h4>
+                    <ul>
+                        <li><a href="#">Beginner Path</a></li>
+                        <li><a href="#">Intermediate Path</a></li>
+                        <li><a href="#">Advanced Path</a></li>
+                        <li><a href="#">Specializations</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href="#">Practice Labs</a></li>
+                        <li><a href="#">Community</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Feedback</a></li>
+                        <li><a href="#">Partnership</a></li>
+                        <li><a href="#">Newsletter</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 DevOps Loom. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

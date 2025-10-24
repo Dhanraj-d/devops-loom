@@ -1,0 +1,33 @@
+#!/usr/bin/env python3
+"""
+Simple HTTP server for DevOps Loom project
+Run with: python3 serve.py
+"""
+
+import http.server
+import socketserver
+import webbrowser
+import os
+
+PORT = 8000
+
+class CustomHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
+    def end_headers(self):
+        self.send_header('Cache-Control', 'no-cache, no-store, must-revalidate')
+        self.send_header('Pragma', 'no-cache')
+        self.send_header('Expires', '0')
+        super().end_headers()
+
+if __name__ == "__main__":
+    os.chdir(os.path.dirname(os.path.abspath(__file__)))
+    
+    with socketserver.TCPServer(("", PORT), CustomHTTPRequestHandler) as httpd:
+        print(f"🚀 DevOps Loom server running at http://localhost:{PORT}")
+        print("📖 Open your browser to view the website")
+        print("🛑 Press Ctrl+C to stop the server")
+        
+        try:
+            webbrowser.open(f'http://localhost:{PORT}')
+            httpd.serve_forever()
+        except KeyboardInterrupt:
+            print("\n👋 Server stopped. Goodbye!")

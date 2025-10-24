@@ -1,0 +1,35 @@
+{
+  "name": "devops-loom",
+  "version": "1.0.0",
+  "description": "Modern DevOps Learning Platform - Comprehensive website for DevOps learners with structured paths, interactive tutorials, and curated resources",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "serve": "python3 -m http.server 8000",
+    "dev": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "devops",
+    "learning",
+    "tutorials",
+    "docker",
+    "kubernetes",
+    "jenkins",
+    "aws",
+    "terraform",
+    "education",
+    "web-development"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/devops-loom.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/devops-loom/issues"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/devops-loom#readme",
+  "devDependencies": {},
+  "dependencies": {}
+}
